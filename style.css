@@ -4,11 +4,14 @@ body {
 
 .button {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
 }
 
 
 .yellow-button {
-    background-color: rgb(255, 217, 0);
+    background-color: rgb(255, 200, 0);
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -22,8 +25,5 @@ body {
 }
 
 .yellow-button:hover {
-    box-shadow: rgba(95, 95, 95, 0.9) 0px 5px 10px 0px;
-    border-style: inset;
-
+    box-shadow: rgba(58, 57, 57, 0.9) 0px 5px 10px 0px;
 }
-
