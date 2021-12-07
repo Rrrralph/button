@@ -6,12 +6,14 @@ body {
     background-color: rgb(214, 213, 213);
 }
 
-
-.yellow-button {
+.button-wraper {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.yellow-button {
     font-size: 1rem;
     background-color:#FFCC00;
     font-weight: bold;
