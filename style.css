@@ -3,27 +3,35 @@ html {
 }
 
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(214, 213, 213);
+    border-style: solid;
+    border-color: gray;
+    height: 100vh;
 }
 
-.button-wraper {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    height: 2rem;
 }
 
 .yellow-button {
+    position: absolute;
     font-size: 2rem;
     background-color:#FFCC00;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 0.1rem;
     border: none;
     border-radius: 3rem;
     padding: 0.7rem 1.5rem;
-    box-shadow: rgba(160, 160, 160, 0.16) 0px 10px 15px 0px;
+    box-shadow: rgba(160, 160, 160, 0.2) 0px 10px 15px 0px;
 }
 
 .yellow-button:hover {
     box-shadow: rgba(58, 57, 57, 0.9) 0px 5px 10px 0px;
 }
+
