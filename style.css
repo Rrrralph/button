@@ -6,8 +6,6 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: rgb(214, 213, 213);
-    border-style: solid;
-    border-color: gray;
     height: 100vh;
 }
 
@@ -16,10 +14,14 @@ body {
     left: 50%;
     top: 50%;
     height: 2rem;
+    border-style: solid red;
 }
 
 .yellow-button {
     position: absolute;
+    /*--------------*/
+    transform: translate(-50%, -50%);
+    /*--------------*/
     font-size: 2rem;
     background-color:#FFCC00;
     font-weight: bold;
